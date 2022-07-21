@@ -1,0 +1,45 @@
+/* Black #181820 */
+/* Grey #272833 */
+/* White #fefeff */
+/* Orange #fc9786 */
+/* Purple #c048d2 */
+
+*{
+    box-sizing: border-box;
+   
+    font-family: 'Poppins',sans-serif;
+
+}
+html {
+    min-height: 100%;
+    display: flex;
+}
+body{
+   
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fefeff;
+    background-color: #b8b8bb;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+#timer{
+    font-size: 54px;
+}
+#start-btn{
+    cursor: pointer;
+    display: flex;
+    background-color: yellowgreen;
+ padding: 8px 30px;
+ 
+
+
+}
+#start-btn:hover{
+    background-color: blue;
+}
